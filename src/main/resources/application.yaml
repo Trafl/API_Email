@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: email-api
+  config:
+    import: file:.env[.properties]
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: ${MAIL_USERNAME_GMAIL}
+    password: ${MAIL_PASSWORD_GMAIL}
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
