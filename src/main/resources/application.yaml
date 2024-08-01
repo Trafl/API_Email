@@ -1,8 +1,8 @@
 spring:
   application:
     name: email-api
-  config:
-    import: file:.env[.properties]
+#  config:
+#    import: file:.env[.properties]
   mail:
     host: smtp.gmail.com
     port: 587
@@ -15,4 +15,4 @@ spring:
           starttls:
             enable: true
 server:
-  port: ${SERVER_PORT}
+  port: ${API_EMAIL_PORT}

@@ -2,8 +2,8 @@ package com.email_service.demo.domain.model;
 
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
-import lombok.*;
-import org.springframework.lang.NonNull;
+import lombok.Getter;
+import lombok.Setter;
 
 @Getter
 @Setter

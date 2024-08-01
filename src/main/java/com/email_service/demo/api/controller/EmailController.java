@@ -1,5 +1,6 @@
 package com.email_service.demo.api.controller;
 
+import com.email_service.demo.api.controller.openApi.EmailControllerDocumentation;
 import com.email_service.demo.domain.model.Email;
 import com.email_service.demo.domain.model.EmailDTO;
 import com.email_service.demo.domain.service.EmailService;
@@ -21,7 +22,7 @@ import java.time.LocalDateTime;
 @RestController
 @RequestMapping("api/email")
 @RequiredArgsConstructor
-public class EmailController {
+public class EmailController implements EmailControllerDocumentation {
 
     private final EmailService emailService;
 
