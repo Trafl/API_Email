@@ -1,4 +1,4 @@
-package com.email_service.demo.core;
+package com.email_service.demo.core.swagger;
 
 import io.swagger.v3.oas.models.Components;
 import io.swagger.v3.oas.models.OpenAPI;
